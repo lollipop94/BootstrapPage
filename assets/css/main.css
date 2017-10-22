@@ -1,0 +1,382 @@
+/*navigation*/
+#mainNav{
+    background-color: #FFFEEF;
+    margin-bottom: 0;
+}
+
+.navbar-menu{
+    background-color: #FCCD16;
+    color: #FFF;
+}
+
+.navbar-menu span.icon-bar{
+    background-color: #F1F1F1;
+}
+
+.navbar-brand{
+    color: #EC971F;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.nav-menu{
+    float: right;
+}
+
+.nav-item{
+    padding: 0 10px;
+    font-size: 15px;
+}
+
+.nav-link{
+    color: #000;
+    font-size: 16px;
+}
+
+.on{
+    color: #EC971F;
+}
+
+/*header*/
+.masthead{
+    background-image: url("../../images/background1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.welcome-info-in{
+    padding-top: 100px;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.welcome-info{
+    padding-top: 30px;
+    font-size: 75px;
+}
+
+a.more{
+    padding: 15px 60px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+/*Information*/
+#information{
+    padding: 150px 0;
+}
+
+.section-heading{
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.section-subheading{
+    margin-bottom: 75px;
+    margin-top: 0;
+}
+
+.information-heading{
+    font-weight: bold;
+}
+
+.information-text{
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.icon-bg{
+    color: #FED136;
+}
+
+/*Project*/
+#project{
+    padding: 150px 0;
+    background-color: #F8F9FA;
+}
+
+.project-item{
+    margin: 0 0 30px 0;
+    text-align: center;
+}
+
+.prj-link{
+    margin: 0 auto;
+    cursor: pointer;
+    display: block;
+    max-width: 400px;
+    position: relative;
+}
+
+.project-item-hover{
+    position: absolute;
+    background-color: #FCCD16;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+}
+
+.project-item-hover:hover{
+    opacity: 1;
+}
+
+.project-item-hover span{
+    color: #FFF;
+    position: absolute;
+    top: 50%;
+    margin-top: -21px;
+    margin-left: -15px;
+}
+
+.prj-name{
+    font-weight: bold;
+}
+
+/*Article*/
+#article{
+    padding: 150px 0;
+}
+
+.timeline-left, .timeline-right{
+    min-height: 300px;
+    margin-bottom: 60px;
+}
+
+.timeline-image{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -85px;
+    border: 5px solid #F1F1F1;
+}
+
+.img-size{
+    height:100%;
+}
+
+.timeline-left .timeline-pannel{
+    width: 450px;
+    text-align: right;
+    position: relative;
+    padding: 0 20px 20px 100px;
+    float: left;
+}
+
+.timeline-right .timeline-pannel{
+    width: 450px;
+    text-align: left;
+    position: relative;
+    padding: 0 100px 20px 20px;
+    float: right;
+}
+
+h3.article-time, h3.article-title{
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.abstract{
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.timeline-more{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-color: #FED136;
+    text-align: center;
+    margin: 0 auto;
+    border: 5px solid #F1F1F1;
+}
+
+.timeline-more h3.more{
+    color: #FFF;
+    line-height: 130px;
+}
+
+.timeline:before{
+    content: '';
+    position: absolute;
+    background-color: #F1F1F1;
+    top: 0;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    z-index: -1;
+}
+
+@media (max-width: 768px) {
+    .timeline-image{
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 5px solid #F1F1F1;
+        left: 10%;
+        margin-left: 0;
+    }
+
+    .timeline-left, .timeline-right{
+        min-height: 150px;
+        position: relative;
+    }
+
+    .timeline-left .timeline-pannel, .timeline-right .timeline-pannel{
+        position: relative;
+        float: right;
+        padding: 0 0 20px 20px;
+        text-align: left;
+    }
+
+    .timeline-more{
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color: #FED136;
+        border: 5px solid #F1F1F1;
+        top: 800px;
+        left: 11%;
+    }
+
+    .timeline-more h3.more{
+        font-size: 14px;
+        color: #000;
+        line-height: 40px;
+    }
+
+    .timeline:before{
+        content: '';
+        position: absolute;
+        background-color: #F1F1F1;
+        top: 0;
+        left: 12%;
+        margin-left: 35px;
+        width: 2px;
+        height: 110%;
+        z-index: -1;
+    }
+}
+
+/*About*/
+#about{
+    padding: 150px 0;
+    background-color: #F8F9FA;
+}
+
+.member{
+    margin-bottom: 50px;
+}
+
+.circle-img{
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+}
+
+li.list-inline-item a{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: #000;
+    color: #FFF;
+    display: block;
+}
+
+.added{
+    font-size: 16px;
+}
+
+/*Logo*/
+.logo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FBFBFB;
+}
+
+/*Contact*/
+#contact{
+    padding: 150px 0;
+    background-image: url("../../images/background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+}
+
+#name, #email, #phone{
+    padding: 25px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#message{
+    font-size: 16px;
+    height: 215px;
+}
+
+.sendMsg{
+    font-size: 18px;
+    padding: 15px 30px;
+}
+
+/*footer*/
+footer{
+    padding: 25px 0;
+}
+
+.copyright{
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.social-links{
+    margin-bottom: 0;
+}
+
+.other-links{
+    font-size: 16px;
+    margin-bottom: 0;
+    line-height: 40px;
+}
+
+.other-links li a{
+    color: #FEC503;
+}
+
+/*Project Modal*/
+.modal-dialog{
+    display: inline-block;
+    width: 100%;
+}
+
+.modal-content{
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+}
+
+.modal-body p{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.modal-body ul.list-unstyled{
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
