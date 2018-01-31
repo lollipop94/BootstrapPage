@@ -23,6 +23,12 @@
     float: right;
 }
 
+@media (max-width: 768px) {
+    .nav-menu {
+        float: none;
+    }
+}
+
 .nav-item{
     padding: 0 10px;
     font-size: 15px;
@@ -39,21 +45,20 @@
 
 /*header*/
 .masthead{
-    background-image: url("../../images/background1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 600px;
+    background: url("../../images/background1.jpg") no-repeat;
+    background-size: 100% 100%;
+    min-height: 700px;
 }
 
 .welcome-info-in{
     padding-top: 100px;
-    font-size: 40px;
+    font-size: 6vh;
     font-style: italic;
 }
 
 .welcome-info{
     padding-top: 30px;
-    font-size: 75px;
+    font-size: 10vh;
 }
 
 a.more{
@@ -310,9 +315,8 @@ li.list-inline-item a{
 /*Contact*/
 #contact{
     padding: 150px 0;
-    background-image: url("../../images/background2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url("../../images/background2.jpg") no-repeat;
+    background-size: 100% 100%;
     min-height: 600px;
 }
 

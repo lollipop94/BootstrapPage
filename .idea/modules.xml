@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Blog.iml" filepath="$PROJECT_DIR$/.idea/Blog.iml" />
+      <module fileurl="file://D:\software\WebStorm\Prj\BootstrapPage\.idea\Blog.iml" filepath="D:\software\WebStorm\Prj\BootstrapPage\.idea\Blog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/BootstrapPage.iml" filepath="$PROJECT_DIR$/.idea/BootstrapPage.iml" />
     </modules>
   </component>
 </project>
