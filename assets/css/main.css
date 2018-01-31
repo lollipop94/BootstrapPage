@@ -362,8 +362,9 @@ footer{
 
 /*Project Modal*/
 .modal-dialog{
-    display: inline-block;
     width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .modal-content{
@@ -372,11 +373,20 @@ footer{
     border: none;
 }
 
+.close {
+    font-size: 20vh;
+    font-weight: normal;
+}
+
 .modal-body p{
     margin-bottom: 30px;
     margin-top: 30px;
     font-size: 16px;
     line-height: 25px;
+}
+
+.modal-body img {
+    margin: auto;
 }
 
 .modal-body ul.list-unstyled{
