@@ -2,19 +2,19 @@
 
 页面效果如下：
 
-[home](https://github.com/FanXuanyi/BootstrapPage/blob/master/preview/home.png)
+![home](https://github.com/FanXuanyi/BootstrapPage/blob/master/preview/home.png)
 
-[information](https://github.com/FanXuanyi/BootstrapPage/blob/master/preview/information.png)
+![information](https://github.com/FanXuanyi/BootstrapPage/blob/master/preview/information.png)
 
-[product](https://github.com/FanXuanyi/BootstrapPage/blob/master/preview/product.png)
+![product](https://github.com/FanXuanyi/BootstrapPage/blob/master/preview/product.png)
 
-[article](https://github.com/FanXuanyi/BootstrapPage/blob/master/preview/article1.png)
+![article](https://github.com/FanXuanyi/BootstrapPage/blob/master/preview/article1.png)
 
-[article](https://github.com/FanXuanyi/BootstrapPage/blob/master/preview/article2.png)
+![article](https://github.com/FanXuanyi/BootstrapPage/blob/master/preview/article2.png)
 
-[about](https://github.com/FanXuanyi/BootstrapPage/blob/master/preview/about.png)
+![about](https://github.com/FanXuanyi/BootstrapPage/blob/master/preview/about.png)
 
-[connect](https://github.com/FanXuanyi/BootstrapPage/blob/master/preview/connect.png)
+![connect](https://github.com/FanXuanyi/BootstrapPage/blob/master/preview/connect.png)
 
 整个网页被我分成了九个部分（行）。下面来简单说明一下。
 
