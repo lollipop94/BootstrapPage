@@ -54,11 +54,13 @@
     padding-top: 100px;
     font-size: 6vh;
     font-style: italic;
+    letter-spacing: 2px;
 }
 
 .welcome-info{
     padding-top: 30px;
     font-size: 10vh;
+    letter-spacing: 2px;
 }
 
 a.more{
@@ -66,6 +68,7 @@ a.more{
     font-size: 20px;
     font-weight: bold;
     margin-top: 50px;
+    letter-spacing: 1px;
 }
 
 /*Information*/
